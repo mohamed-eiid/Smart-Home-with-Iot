@@ -2,15 +2,14 @@
  
 Smart home is embedded system project based on IoT system aims to turn our homes to smart homes 
 
-the project is separated to five parts:
+The project is separated to five parts:
 • Power saving by sensing the motion and light the house on and off automatically
 • Security system by using sensors interfacing with keypad and LCD 
 • Smart locks by using RFID 
 • Monitoring by using live camera on RaspberryPi3 
 • Connectivity by using IoT to connect all the sensors reading and control from mobile
 
-will discuss each part individually
-
+Each part will be discussed individually 
 
 # Power saving
 
