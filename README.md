@@ -1,6 +1,6 @@
 # Smart Home with Iot
  
-Smart home is embedded system project based on IoT system aims to turn our homes to smart homes 
+Smart home is embedded system project based on IoT system aims to turn our homes to smart homes.
 
 The project is separated to five parts:
 • Power saving by sensing the motion and light the house on and off automatically
@@ -9,13 +9,13 @@ The project is separated to five parts:
 • Monitoring by using live camera on RaspberryPi3 
 • Connectivity by using IoT to connect all the sensors reading and control from mobile
 
-Each part will be discussed individually 
+Each part will be discussed individually.
 
 # Power saving
 
-The target of this part is to reduce the consumed power from lighting by switching it on and off automatically using Passive infrared sensor(PIR) in the room to sense the motion and connecting it with ultrasonic sensor in the door of the room to count ever one gets in and out so when the counter counting persons in the room and agree with the reading from PIR sensor the light switched on automatically and when both read 0 the light automatically switching off 
+The target of this part is to reduce the consumed power from lighting by switching it on and off automatically using Passive infrared sensor(PIR) in the room to sense the motion and connecting it with ultrasonic sensor in the door of the room to count ever one gets in and out so when the counter counting persons in the room and agree with the reading from PIR sensor the light switched on automatically and when both read 0 the light automatically switching off.
 
-Special case in the code is added as when the PIR reads an information there is a person in the room and the counter counting the number of the people 0 in this case the security mode activates an alarm as it probably indicate to a thief
+Special case in the code is added as when the PIR reads an information there is a person in the room and the counter counting the number of the people 0 in this case the security mode activates an alarm as it probably indicate to a thief.
 
 
 # Security system
@@ -29,7 +29,7 @@ Replacing ordinary key by tags and cards as a card or a tag passes in front of t
 
 # Monitoring
 
-Our security camera system based on raspberry pi3 controller using its module TTL Mini camera
+Security camera system based on raspberry pi3 controller using its module TTL Mini camera.
 
 
 # Connectivity
